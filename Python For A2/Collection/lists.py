@@ -4,6 +4,16 @@
 # Set = {} unordered and immutable, but add/remove OK. NO duplicates
 # Tuple = () ordered and unchangeable. Duplicates OK. FASTER
 
+#  changeable means that the collection can be modified after it has been created.
+#  For example, in Python, a list is changeable,
+#  meaning that we can change, add, and remove items in a list after it has been created
+
+#  unchangeable means that the collection cannot be modified after it has been created.
+#  For example, in Python, a set is unchangeable,
+#  meaning that we cannot change the items after the set has been created.
+#  Once a set is created, you cannot change its items,
+#  but you can remove items and add new items
+
 fruits = ["apple", "banana", "pineapple", "mango"]
 drinks = ["coke", "spite", "sting", "fanta"]
 
@@ -14,14 +24,15 @@ drinks = ["coke", "spite", "sting", "fanta"]
 # Modifying
 # fruits.append("Panda")
 # fruits.pop()
-result = fruits.pop(1)
-print(result)
-print(fruits)
+# result = fruits.insert(1, "Macbook")
+# fruits[2] = "Macbook"
+# print(fruits)
 
 # print(fruits.__dir__())
 # print('art' in fruits)
 # for item in fruits:
 #     print(item)
+
 
 
 
