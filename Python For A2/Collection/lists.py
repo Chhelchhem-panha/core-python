@@ -1,3 +1,4 @@
+
 # Collection = single "variable" used to store multiple values
 # List = [] ordered and changeable. Duplicates OK
 # Set = {} unordered and immutable, but add/remove OK. NO duplicates
@@ -11,13 +12,11 @@ drinks = ["coke", "spite", "sting", "fanta"]
 # print(fruits[0:3])
 
 # Modifying
-# fruits.append("Panha")
+# fruits.append("Panda")
 # fruits.pop()
-result = fruits.insert(2, "Panha")
+result = fruits.pop(1)
 print(result)
 print(fruits)
-
-
 
 # print(fruits.__dir__())
 # print('art' in fruits)
